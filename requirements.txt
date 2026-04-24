@@ -1,0 +1,72 @@
+# SpraySpy - Contrôleur Robot Fanuc
+# Requirements pour l'interface GUI
+
+# Dépendances obligatoires (minimales)
+# - tkinter : Inclus nativement avec Python 3.8+
+# - socket : Inclus nativement avec Python
+# - threading : Inclus nativement avec Python
+# - json : Inclus nativement avec Python
+# - datetime : Inclus nativement avec Python
+
+# Aucune dépendance externe requise pour le fonctionnement de base
+
+# ==================================================
+# DÉPENDANCES OPTIONNELLES RECOMMANDÉES
+# ==================================================
+
+# Pour visualisation 3D trajectoire
+numpy>=1.21.0
+matplotlib>=3.4.0
+
+# Pour 3D avancé
+vispy>=0.10.0
+
+# Pour communication série (si besoin sensors externes)
+pyserial>=3.5
+
+# Pour gestion d'environnement
+python-dotenv>=0.19.0
+
+# ==================================================
+# DÉPENDANCES DE DÉVELOPPEMENT
+# ==================================================
+
+# Tests
+pytest>=6.2.0
+pytest-cov>=2.12.0
+
+# Qualité du code
+black>=21.0
+pylint>=2.9.0
+flake8>=3.9.0
+
+# Type checking
+mypy>=0.910
+
+# Documentation
+sphinx>=4.0.0
+
+# ==================================================
+# NOTES D'INSTALLATION
+# ==================================================
+
+# Installation de base (minimal):
+# pip install -r requirements.txt
+
+# Installation avec tous les optionnels:
+# pip install -r requirements.txt numpy matplotlib vispy
+
+# Installation pour développement:
+# pip install -r requirements.txt pytest black pylint mypy
+
+# ==================================================
+# VERSIONS PYTHON TESTÉES
+# ==================================================
+
+# Testée sur :
+# - Python 3.8 (Windows 10/11)
+# - Python 3.9 (Windows 10/11, Linux)
+# - Python 3.10 (Windows 11)
+# - Python 3.11 (Windows 11)
+
+# Prérequis minimum: Python 3.8+
